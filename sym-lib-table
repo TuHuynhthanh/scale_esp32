@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name Hornbill-Devboard-rescue)(type Legacy)(uri "${KIPRJMOD}/Hornbill Devboard-rescue.lib")(options "")(descr ""))
+  (lib (name Scale_Dev_ESP32-rescue)(type Legacy)(uri ${KIPRJMOD}/Scale_Dev_ESP32-rescue.lib)(options "")(descr ""))
 )
