@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Hornbill-Devboard-rescue)(type Legacy)(uri "${KIPRJMOD}/Hornbill Devboard-rescue.lib")(options "")(descr ""))
+)
