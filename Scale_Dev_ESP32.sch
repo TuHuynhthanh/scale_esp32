@@ -230,13 +230,13 @@ IO25
 Text Label 2530 5810 2    60   ~ 0
 IO26
 Text Label 2530 5910 2    60   ~ 0
-IO27
+BUT1
 Text Label 2530 6010 2    60   ~ 0
 IO14
 Text Label 2530 6110 2    60   ~ 0
-IO12
+BUT0
 Text Label 3450 6619 3    60   ~ 0
-BUT3
+IO13
 Text Label 3550 6620 3    60   ~ 0
 SD2
 Text Label 3650 6620 3    60   ~ 0
@@ -250,9 +250,9 @@ SD0
 Text Label 4050 6620 3    60   ~ 0
 SD1
 Text Label 4150 6620 3    60   ~ 0
-BUT0
+IO15
 Text Label 4250 6620 3    60   ~ 0
-BUT1
+BUT3
 Text Label 5160 4910 0    60   ~ 0
 IO23
 Text Label 5160 5010 0    60   ~ 0
@@ -460,7 +460,7 @@ U 1 1 58389220
 P 5350 1560
 F 0 "C1" H 5375 1660 50  0000 L CNN
 F 1 "4.7uF" H 5375 1460 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5388 1410 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_4x3" H 5388 1410 50  0001 C CNN
 F 3 "" H 5350 1560 50  0000 C CNN
 	1    5350 1560
 	1    0    0    -1  
@@ -515,7 +515,7 @@ U 1 1 5838CFBD
 P 7940 1510
 F 0 "C6" H 7965 1610 50  0000 L CNN
 F 1 "4.7uF" H 7965 1410 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7978 1360 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_4x3" H 7978 1360 50  0001 C CNN
 F 3 "" H 7940 1510 50  0000 C CNN
 	1    7940 1510
 	1    0    0    -1  
@@ -1638,7 +1638,7 @@ U 1 1 5BCA906D
 P 12350 1850
 F 0 "C18" H 12468 1896 50  0000 L CNN
 F 1 "1uF" H 12468 1805 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_4x3" H 12388 1700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 12388 1700 50  0001 C CNN
 F 3 "~" H 12350 1850 50  0001 C CNN
 	1    12350 1850
 	1    0    0    -1  
@@ -1649,7 +1649,7 @@ U 1 1 5BCA917E
 P 12150 1850
 F 0 "C17" H 12265 1896 50  0000 L CNN
 F 1 "0.1uF" H 12265 1805 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_4x3" H 12188 1700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 12188 1700 50  0001 C CNN
 F 3 "~" H 12150 1850 50  0001 C CNN
 	1    12150 1850
 	1    0    0    -1  
@@ -1958,7 +1958,7 @@ L Device:CP C15
 U 1 1 5BFD9DF4
 P 9100 900
 F 0 "C15" H 9218 946 50  0000 L CNN
-F 1 "CP" H 9218 855 50  0000 L CNN
+F 1 "10uF" H 9218 855 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_4x3" H 9138 750 50  0001 C CNN
 F 3 "~" H 9100 900 50  0001 C CNN
 	1    9100 900 
@@ -2002,4 +2002,56 @@ Wire Wire Line
 Wire Wire Line
 	6475 6050 6575 6050
 Connection ~ 6575 6050
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5BC8B2F5
+P 2750 9200
+F 0 "TP1" H 2808 9320 50  0000 L CNN
+F 1 "TestPoint" H 2808 9229 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D4.0mm" H 2950 9200 50  0001 C CNN
+F 3 "~" H 2950 9200 50  0001 C CNN
+	1    2750 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5BC8B497
+P 2900 9300
+F 0 "TP2" H 2958 9420 50  0000 L CNN
+F 1 "TestPoint" H 2958 9329 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D4.0mm" H 3100 9300 50  0001 C CNN
+F 3 "~" H 3100 9300 50  0001 C CNN
+	1    2900 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5BC8B5B2
+P 3000 9400
+F 0 "TP3" H 3058 9520 50  0000 L CNN
+F 1 "TestPoint" H 3058 9429 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D4.0mm" H 3200 9400 50  0001 C CNN
+F 3 "~" H 3200 9400 50  0001 C CNN
+	1    3000 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP4
+U 1 1 5BC8B6E0
+P 3250 9500
+F 0 "TP4" H 3308 9620 50  0000 L CNN
+F 1 "TestPoint" H 3308 9529 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D4.0mm" H 3450 9500 50  0001 C CNN
+F 3 "~" H 3450 9500 50  0001 C CNN
+	1    3250 9500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 9200 2150 9200
+Wire Wire Line
+	2900 9300 2250 9300
+Wire Wire Line
+	3000 9400 2350 9400
+Wire Wire Line
+	3250 9500 2450 9500
 $EndSCHEMATC
