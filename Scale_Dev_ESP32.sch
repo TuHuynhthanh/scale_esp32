@@ -42,7 +42,7 @@ U 1 1 58357A64
 P 4250 1955
 F 0 "D3" V 4310 1805 50  0000 C CNN
 F 1 "LED" V 4220 1805 50  0000 C CNN
-F 2 "LEDs:LED-0603" H 4250 1955 50  0001 C CNN
+F 2 "Diodes_SMD:D_0603" H 4250 1955 50  0001 C CNN
 F 3 "" H 4250 1955 50  0000 C CNN
 	1    4250 1955
 	0    -1   -1   0   
@@ -537,7 +537,7 @@ U 1 1 5838DF99
 P 7450 1760
 F 0 "D2" V 7460 1870 50  0000 C CNN
 F 1 "Yellow" V 7490 1560 50  0000 C CNN
-F 2 "LEDs:LED-0603" H 7450 1760 50  0001 C CNN
+F 2 "Diodes_SMD:D_0603" H 7450 1760 50  0001 C CNN
 F 3 "" H 7450 1760 50  0000 C CNN
 	1    7450 1760
 	0    1    1    0   
@@ -656,7 +656,7 @@ U 1 1 583C8DCB
 P 2350 7180
 F 0 "D4" H 2360 7310 50  0000 C CNN
 F 1 "Blue" H 2360 7390 50  0000 C CNN
-F 2 "LEDs:LED-0603" H 2350 7180 50  0001 C CNN
+F 2 "Diodes_SMD:D_0603" H 2350 7180 50  0001 C CNN
 F 3 "" H 2350 7180 50  0000 C CNN
 	1    2350 7180
 	1    0    0    -1  
@@ -667,7 +667,7 @@ U 1 1 583FF385
 P 6210 7030
 F 0 "U6" H 6210 6880 40  0000 C CNN
 F 1 "MountingHole" H 6210 6930 40  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_2-5mm" H 6210 7030 40  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_2.5mm" H 6210 7030 40  0001 C CNN
 F 3 "" H 6210 7030 40  0000 C CNN
 	1    6210 7030
 	1    0    0    -1  
@@ -678,7 +678,7 @@ U 1 1 58400002
 P 6700 7030
 F 0 "U8" H 6700 6880 40  0000 C CNN
 F 1 "MountingHole" H 6700 6930 40  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_2-5mm" H 6700 7030 40  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_2.5mm" H 6700 7030 40  0001 C CNN
 F 3 "" H 6700 7030 40  0000 C CNN
 	1    6700 7030
 	1    0    0    -1  
@@ -689,7 +689,7 @@ U 1 1 58401017
 P 6210 7390
 F 0 "U7" H 6210 7240 40  0000 C CNN
 F 1 "MountingHole" H 6210 7290 40  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_2-5mm" H 6210 7390 40  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_2.5mm" H 6210 7390 40  0001 C CNN
 F 3 "" H 6210 7390 40  0000 C CNN
 	1    6210 7390
 	1    0    0    -1  
@@ -700,7 +700,7 @@ U 1 1 584010A6
 P 6710 7390
 F 0 "U9" H 6710 7240 40  0000 C CNN
 F 1 "MountingHole" H 6710 7290 40  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_2-5mm" H 6710 7390 40  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_2.5mm" H 6710 7390 40  0001 C CNN
 F 3 "" H 6710 7390 40  0000 C CNN
 	1    6710 7390
 	1    0    0    -1  
@@ -871,17 +871,6 @@ Text Label 10450 5650 0    60   ~ 0
 DTR
 Text Label 10000 5350 0    60   ~ 0
 RTS
-$Comp
-L Scale_Dev_ESP32-rescue:USB-MINI-B-Hornbill-Devboard-rescue-Hornbill-Devboard-rescue CON1
-U 1 1 58EC0EA8
-P 6600 5650
-F 0 "CON1" H 6300 6000 50  0000 C CNN
-F 1 "USB-MINI-B" H 6450 5300 50  0000 C CNN
-F 2 "Scale:USB_Micro-B_SMD_NEW_1" H 6600 5550 50  0001 C CNN
-F 3 "" H 6600 5550 50  0000 C CNN
-	1    6600 5650
-	-1   0    0    -1  
-$EndComp
 $Comp
 L Scale_Dev_ESP32-rescue:C-Hornbill-Devboard-rescue-Hornbill-Devboard-rescue C3
 U 1 1 58EC1C4B
@@ -1275,10 +1264,6 @@ Wire Wire Line
 Wire Wire Line
 	10000 5650 10450 5650
 Wire Wire Line
-	7650 5550 7100 5550
-Wire Wire Line
-	7100 5650 7650 5650
-Wire Wire Line
 	7100 5850 7400 5850
 Wire Wire Line
 	7550 5850 7550 5750
@@ -1303,8 +1288,6 @@ Wire Wire Line
 Wire Wire Line
 	7650 5450 7650 4550
 Connection ~ 7650 4550
-Wire Wire Line
-	7200 5450 7100 5450
 Wire Wire Line
 	7500 5450 7650 5450
 Wire Wire Line
@@ -1555,7 +1538,7 @@ U 1 1 5BE55AA9
 P 8550 850
 F 0 "J2" H 8605 1175 50  0000 C CNN
 F 1 "Jack-DC" H 8605 1084 50  0000 C CNN
-F 2 "" H 8600 810 50  0001 C CNN
+F 2 "Connectors:BARREL_JACK" H 8600 810 50  0001 C CNN
 F 3 "~" H 8600 810 50  0001 C CNN
 	1    8550 850 
 	1    0    0    -1  
@@ -1585,7 +1568,7 @@ $EndComp
 Wire Wire Line
 	8850 650  8850 750 
 $Comp
-L cp2110:CP2110 U1
+L Scale_Dev_ESP32-rescue:CP2110-cp2110 U1
 U 1 1 5BC656A4
 P 13450 1800
 F 0 "U1" H 13450 2697 60  0000 C CNN
@@ -1714,12 +1697,12 @@ F 3 "~" H 11300 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:USB_B_Micro J3
+L Connector:USB_B_Micro CON2
 U 1 1 5BCFAE51
 P 10350 950
-F 0 "J3" H 10405 1417 50  0000 C CNN
+F 0 "CON2" H 10405 1417 50  0000 C CNN
 F 1 "USB_B_Micro" H 10405 1326 50  0000 C CNN
-F 2 "Connector_USB:USB_Mini-B_Lumberg_2486_01_Horizontal" H 10500 900 50  0001 C CNN
+F 2 "Connectors_USB:USB_Micro-B_Molex-105017-0001" H 10500 900 50  0001 C CNN
 F 3 "~" H 10500 900 50  0001 C CNN
 	1    10350 950 
 	1    0    0    -1  
@@ -1782,7 +1765,7 @@ Connection ~ 10250 1400
 Wire Wire Line
 	10250 1400 10250 1450
 $Comp
-L SMF05C:SMF05C D5
+L Scale_Dev_ESP32-rescue:SMF05C-SMF05C D5
 U 1 1 5BE083F1
 P 11100 1900
 F 0 "D5" H 10666 1896 50  0000 R CNN
@@ -1991,4 +1974,32 @@ Wire Wire Line
 Connection ~ 8850 1050
 Wire Wire Line
 	8850 1050 8850 1100
+$Comp
+L Connector:USB_B_Micro CON1
+U 1 1 5BC7A30E
+P 6575 5650
+F 0 "CON1" H 6630 6117 50  0000 C CNN
+F 1 "USB_B_Micro" H 6630 6026 50  0000 C CNN
+F 2 "Connectors_USB:USB_Micro-B_Molex-105017-0001" H 6725 5600 50  0001 C CNN
+F 3 "~" H 6725 5600 50  0001 C CNN
+	1    6575 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6875 5450 7200 5450
+Wire Wire Line
+	6875 5650 7650 5650
+Wire Wire Line
+	6875 5750 6950 5750
+Wire Wire Line
+	6950 5750 6950 5550
+Wire Wire Line
+	6950 5550 7650 5550
+Wire Wire Line
+	6575 6050 7100 6050
+Wire Wire Line
+	7100 6050 7100 5850
+Wire Wire Line
+	6475 6050 6575 6050
+Connection ~ 6575 6050
 $EndSCHEMATC
