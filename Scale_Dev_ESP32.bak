@@ -236,7 +236,7 @@ IO14
 Text Label 2530 6110 2    60   ~ 0
 BUT0
 Text Label 3450 6619 3    60   ~ 0
-BUT3
+IO13
 Text Label 3550 6620 3    60   ~ 0
 SD2
 Text Label 3650 6620 3    60   ~ 0
@@ -252,7 +252,7 @@ SD1
 Text Label 4150 6620 3    60   ~ 0
 IO15
 Text Label 4250 6620 3    60   ~ 0
-BUT1
+BUT3
 Text Label 5160 4910 0    60   ~ 0
 IO23
 Text Label 5160 5010 0    60   ~ 0
@@ -1638,7 +1638,7 @@ U 1 1 5BCA906D
 P 12350 1850
 F 0 "C18" H 12468 1896 50  0000 L CNN
 F 1 "1uF" H 12468 1805 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_4x3" H 12388 1700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 12388 1700 50  0001 C CNN
 F 3 "~" H 12350 1850 50  0001 C CNN
 	1    12350 1850
 	1    0    0    -1  
@@ -1649,7 +1649,7 @@ U 1 1 5BCA917E
 P 12150 1850
 F 0 "C17" H 12265 1896 50  0000 L CNN
 F 1 "0.1uF" H 12265 1805 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_4x3" H 12188 1700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 12188 1700 50  0001 C CNN
 F 3 "~" H 12150 1850 50  0001 C CNN
 	1    12150 1850
 	1    0    0    -1  

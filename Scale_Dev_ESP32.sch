@@ -1739,7 +1739,7 @@ Wire Wire Line
 Wire Wire Line
 	12600 1350 12550 1350
 Text Label 12550 1350 2    60   ~ 0
-USD_P
+USB_P
 Text Label 12550 1250 2    60   ~ 0
 USB_N
 Text Label 11600 1100 0    60   ~ 0
